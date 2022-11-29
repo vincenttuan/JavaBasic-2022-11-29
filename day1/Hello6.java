@@ -12,7 +12,10 @@ public class Hello6 {
 		double area = r * r * pi;
 		// 印出圓面積
 		System.out.println("圓面積: " + area);
-		
+		// 計算球體積
+		double volume = 4/3.0 * pi * r * r * r;
+		// 印出球體積
+		System.out.println("球體積: " + volume);
 	}
 
 }
