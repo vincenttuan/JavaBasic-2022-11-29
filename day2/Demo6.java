@@ -16,7 +16,7 @@ public class Demo6 {
 		int rabbit  = (feet - x) / 2; // 兔
 		int chicken = total - rabbit;  // 雞
 
-		System.out.printf("雞: %d 兔: %d\n", rabbit, chicken);
+		System.out.printf("雞: %d 兔: %d\n", chicken, rabbit);
 	}
 
 }
