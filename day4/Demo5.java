@@ -12,7 +12,19 @@ public class Demo5 {
 	 * bmi >= 23      -> 印出 "過重"
 	*/
 	public static void main(String[] args) {
-		// 請撰寫 ...
+		Scanner sc = new Scanner(System.in);
+		System.out.print("請輸入身高與體重(中間用空格隔開): ");
+		double h = sc.nextDouble();
+		double w = sc.nextDouble();
+		double bmi = w / Math.pow(h/100, 2);
+		System.out.printf("BMI: %.1f\n", bmi);
+		if(bmi < 18) {
+			System.out.println("過輕");
+		} else if(bmi >= 23) {
+			System.out.println("過重");
+		} else {
+			System.out.println("正常");
+		}
 
 	}
 }
