@@ -21,7 +21,9 @@ public class Demo1 {
 			System.out.println("不及格");
 		}
 
-		
+		// if - else 也可以改用 ? : (三元運算子)
+		System.out.println( (score >= 60) ? "及格" : "不及格" );
+
 	}
 
 }
