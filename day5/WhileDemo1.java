@@ -9,7 +9,13 @@ public class WhileDemo1 {
 
 		while(true) {
 			int n = random.nextInt(100); // 0~99
+			if(n % 2 == 1) {
+				continue;
+			}
 			System.out.println(n);
+			if(n == 50) {
+				break;
+			}
 		}
 
 	}
